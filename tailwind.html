@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header Section -->
+    <header class="bg-blue-500 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold">Adaora Olivia Ezeobi</div>
+            <nav>
+                <ul class="flex">
+                    <li class="mx-2"><a href="#" class="hover:text-gray-300">Home</a></li>
+                    <li class="mx-2"><a href="#" class="hover:text-gray-300">Projects</a></li>
+                    <li class="mx-2"><a href="#" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero bg-cover bg-center h-screen flex items-center">
+        <div class="container mx-auto text-center text-black">
+            <h1 class="text-5xl font-bold mb-4">Welcome to My Portfolio</h1>
+            <p class="text-lg">I am passionate about creating awesome web pages!</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="py-10">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-6">Skills</h2>
+            <div class="grid grid-cols-3 gap-4">
+                <div class="p-4 bg-white shadow-md">
+                    <h3 class="text-lg font-semibold">Knowledge in HTML & CSS </h3>
+                    <p class="mt-2">I have a good understanding and perfect displaying of skills in both HTML & CSS.</p>
+                </div>
+                <div class="p-4 bg-white shadow-md">
+                    <h3 class="text-lg font-semibold">Javascript</h3>
+                    <p class="mt-2">I have a good understanding and perfect displaying of skills in Javascript.</p>
+                </div>
+                <div class="p-4 bg-white shadow-md">
+                    <h3 class="text-lg font-semibold">Graphic design</h3>
+                    <p class="mt-2">I have a good understanding and perfect displaying of skills in Graphic design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-10 bg-gray-200">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-6">Projects</h2>
+            <div class="grid grid-cols-2 gap-6">
+                <div class="p-4 bg-white shadow-md">
+                    <img src="project1.jpg" alt="Project 1" class="w-full mb-4">
+                    <h3 class="text-lg font-semibold">Project 1</h3>
+                    <p class="mt-2">Description of Project 1.</p>
+                </div>
+                <div class="p-4 bg-white shadow-md">
+                    <img src="project2.jpg" alt="Project 2" class="w-full mb-4">
+                    <h3 class="text-lg font-semibold">Project 2</h3>
+                    <p class="mt-2">Description of Project 2.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="py-10">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+            <form class="max-w-md mx-auto">
+                <div class="mb-4">
+                    <label for="name" class="block text-lg font-semibold">Name</label>
+                    <input type="text" id="name" name="name" class="w-full px-3 py-2 border rounded-md">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-lg font-semibold">Email</label>
+                    <input type="email" id="email" name="email" class="w-full px-3 py-2 border rounded-md">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-lg font-semibold">Message</label>
+                    <textarea id="message" name="message" rows="4" class="w-full px-3 py-2 border rounded-md"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <div>&copy; 2024 Adaora Olivia Ezeobi</div>
+            <div class="flex space-x-4"> 
+                <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
